@@ -137,6 +137,9 @@ async def on_message(message):
     if message.content.startswith('ㄱㄷ'):
         channel = message.channel
         await channel.send('10초 셀게')
+    if message.content.startswith('미안'):
+        channel = message.channel
+        await channel.send('ㅇㅅㅇ?')
         
         
 access_token = os.environ['BOT_TOKEN']        
