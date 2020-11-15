@@ -5,7 +5,7 @@ import os
 client = discord.Client()
 
 # 복사해 둔 토큰을 your_token에 넣어줍니당
-token = "Nzc3MzQyMjI3OTU2NzYwNTg4.X7CCXQ.sgBYLgKQ9IHDoEUxQupP-iZviQM"
+token = "Nzc3MzQyMjI3OTU2NzYwNTg4.X7CCXQ.YWr2-iHC918itckciJ4pWsff4iA"
 
 # 봇이 구동되었을 때 동작되는 코드
 @client.event
