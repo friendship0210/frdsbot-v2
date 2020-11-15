@@ -130,7 +130,7 @@ async def on_message(message):
         await channel.send('뭐가 아니야 ㅋㅋㅋ')
     if message.content.startswith('업데이트'):
         channel = message.channel
-        await channel.send('업데이트 확률 0.001%')
+        await channel.send('업데이트 확률 1%')
     if message.content.startswith('알겠음'):
         channel = message.channel
         await channel.send('알겠지?')
@@ -140,6 +140,12 @@ async def on_message(message):
     if message.content.startswith('미안'):
         channel = message.channel
         await channel.send('ㅇㅅㅇ?')
+    if message.content.startswith('부스트'):
+        channel = message.channel
+        await channel.send('6000원의 행복')
+    if message.content.startswith('니트로'):
+        channel = message.channel
+        await channel.send('15000원의 행복')
         
         
 access_token = os.environ['BOT_TOKEN']        
