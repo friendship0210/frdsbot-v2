@@ -139,5 +139,5 @@ async def on_message(message):
         await channel.send('10초 셀게')
         
         
-access_token = os.environ["BOT_TOKEN"]        
+access_token = os.environ['BOT_TOKEN']        
 client.run(access_token)
