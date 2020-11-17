@@ -136,7 +136,7 @@ async def on_message(message):
         await channel.send('알겠지?')
     if message.content.startswith('ㄱㄷ'):
         channel = message.channel
-        await channel.send('못기다리겠는데? ')
+        await channel.send('못기다리겠는데?')
     if message.content.startswith('미안'):
         channel = message.channel
         await channel.send('ㅇㅅㅇ?')
