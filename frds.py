@@ -136,7 +136,7 @@ async def on_message(message):
         await channel.send('알겠지?')
     if message.content.startswith('ㄱㄷ'):
         channel = message.channel
-        await channel.send('10초 셀게')
+        await channel.send('못기다리겠는데? ')
     if message.content.startswith('미안'):
         channel = message.channel
         await channel.send('ㅇㅅㅇ?')
@@ -146,6 +146,77 @@ async def on_message(message):
     if message.content.startswith('니트로'):
         channel = message.channel
         await channel.send('15000원의 행복')
+    if message.content.startswith('싫어'):
+        channel = message.channel
+        await channel.send('아잉')
+    if message.content.startswith('헐'):
+        channel = message.channel
+        await channel.send('헐')
+    if message.content.startswith('바보'):
+        channel = message.channel
+        await channel.send('너도 ㅋ')
+    if message.content.startswith('멍청이'):
+        channel = message.channel
+        await channel.send('안들려~')
+    if message.content.startswith('마'):
+        channel = message.channel
+        await channel.send('동석')
+    if message.content.startswith('하'):
+        channel = message.channel
+        await channel.send('하')
+    if message.content.startswith('음'):
+        channel = message.channel
+        await channel.send('뭘 고민해 ㅋ')
+    if message.content.startswith('신기'):
+        channel = message.channel
+        await channel.send('나도 내가 신기해 ㅋㅋ')
+    if message.content.startswith('오호'):
+        channel = message.channel
+        await channel.send('5HO')
+    if message.content.startswith('님'):
+        channel = message.channel
+        await channel.send('왜부름?')
+    if message.content.startswith(';;'):
+        channel = message.channel
+        await channel.send('땀 닦아줄게')
+    if message.content.startswith('ㅠㅠ'):
+        channel = message.channel
+        await channel.send('울지마')
+    if message.content.startswith('ㅋㅋㄹㅃㅃ'):
+        channel = message.channel
+        await channel.send('ㅋㅋㄹㅃㅃ')
+    if message.content.startswith('임포스터'):
+        channel = message.channel
+        await channel.send('Kill')
+    if message.content.startswith('크루원'):
+        channel = message.channel
+        await channel.send('Report')
+    if message.content.startswith('어몽어스'):
+        channel = message.channel
+        await channel.send('ඞ')
+    if message.content.startswith('5초 카운트'):
+        channel = message.channel
+        await channel.send('5초 카운트 시작!')
+        await channel.send('5')
+        await channel.send('4')
+        await channel.send('3')
+        await channel.send('2')
+        await channel.send('1')
+        await channel.send('5초 카운트 끝!')
+    if message.content.startswith('10초 카운트'):
+        channel = message.channel
+        await channel.send('10초 카운트 시작!')
+        await channel.send('10')
+        await channel.send('9')
+        await channel.send('8')
+        await channel.send('7')
+        await channel.send('6')
+        await channel.send('5')
+        await channel.send('4')
+        await channel.send('3')
+        await channel.send('2')
+        await channel.send('1')
+        await channel.send('10초 카운트 끝!')
         
         
 access_token = os.environ['BOT_TOKEN']        
