@@ -217,7 +217,7 @@ async def on_message(message):
         await channel.send('2')
         await channel.send('1')
         await channel.send('__10초 카운트 끝!__')
-     if message.content.startswith('파이썬'):
+    if message.content.startswith('파이썬'):
         channel = message.channel
         await channel.send('나도 파이썬으로 만들어짐 ')
         
