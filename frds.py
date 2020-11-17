@@ -196,16 +196,16 @@ async def on_message(message):
         await channel.send('ඞ')
     if message.content.startswith('5초 카운트'):
         channel = message.channel
-        await channel.send('5초 카운트 시작!')
+        await channel.send('__5초 카운트 시작!__')
         await channel.send('5')
         await channel.send('4')
         await channel.send('3')
         await channel.send('2')
         await channel.send('1')
-        await channel.send('5초 카운트 끝!')
+        await channel.send('__5초 카운트 끝!__')
     if message.content.startswith('10초 카운트'):
         channel = message.channel
-        await channel.send('10초 카운트 시작!')
+        await channel.send('__10초 카운트 시작!__')
         await channel.send('10')
         await channel.send('9')
         await channel.send('8')
@@ -216,7 +216,7 @@ async def on_message(message):
         await channel.send('3')
         await channel.send('2')
         await channel.send('1')
-        await channel.send('10초 카운트 끝!')
+        await channel.send('__10초 카운트 끝!__')
         
         
 access_token = os.environ['BOT_TOKEN']        
