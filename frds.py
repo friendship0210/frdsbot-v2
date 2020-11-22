@@ -196,14 +196,14 @@ async def on_message(message):
         await channel.send('ඞ')
     if message.content.startswith('5초 카운트'):
         channel = message.channel
-        await channel.send('**※경고:명령어를 연속으로 사용하지 마십시오.**')
-        await channel.send('__5초 카운트를 시작합니다...__')
+        await channel.send('***※경고: 명령어를 연속으로 사용하지 마십시오.***')
+        await channel.send('5초 카운트를 **시작**합니다...')
         await channel.send('> 5초')
         await channel.send('> 4초')
         await channel.send('> 3초')
         await channel.send('> 2초')
         await channel.send('> 1초')
-        await channel.send('__5초 카운트를 종료합니다...__')
+        await channel.send('5초 카운트를 **종료**합니다...')
     if message.content.startswith('파이썬'):
         channel = message.channel
         await channel.send('나도 파이썬으로 만들어짐 ')
