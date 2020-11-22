@@ -33,7 +33,7 @@ async def on_ready():
         game = discord.Game("공식주소: discord.gg/nEzPCjd")
         await client.change_presence(status=discord.Status.online, activity=game)
         await asyncio.sleep(3)
-        game = discord.Game("서버문의: 우정#9444")
+        game = discord.Game("서버문의: 우정#9444 ")
         await client.change_presence(status=discord.Status.online, activity=game)
         await asyncio.sleep(3)
 # 디스코드에는 현재 본인이 어떤 게임을 플레이하는지 보여주는 기능이 있습니다.
