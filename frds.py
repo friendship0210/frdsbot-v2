@@ -216,7 +216,11 @@ async def on_message(message):
         await channel.send('5초 카운트를 **종료**합니다...')
     if message.content.startswith('파이썬'):
         channel = message.channel
-        await channel.send('나도 파이썬으로 만들어짐 ')
+        await channel.send('나도 파이썬으로 만들어짐')
+    if message.content.startswith('보자보자'):
+        channel = message.channel
+        await channel.send('어디보자')
+        await channel.send('너 두고 보자')
         
         
 access_token = os.environ['BOT_TOKEN']        
