@@ -237,8 +237,7 @@ async def on_message(message):
         await channel.send('하지마세요!')
     if message.content.startswith('죄송합니다'):
         channel = message.channel
-        await channel.send('괜찮아요,')
-        await channel.send('다음부턴 조심해주세요!')
+        await channel.send('괜찮아요, 다음부터 조심합시다!')
         
 access_token = os.environ['BOT_TOKEN']        
 client.run(access_token)
