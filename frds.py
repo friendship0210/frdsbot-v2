@@ -221,7 +221,15 @@ async def on_message(message):
         channel = message.channel
         await channel.send('어디보자')
         await channel.send('너 두고 보자')
-        
+    if message.content.startswith('이름이 뭐야'):
+        channel = message.channel
+        await channel.send('Hi my name iS 압둘알리과로사')
+        await channel.send('지금부터 내가 너희들에게 폭탄같은 랩을 전사')
+    if message.content.startswith('나 어때?'):
+        channel = message.channel
+        await channel.send('잘생겼어:)')
+        await channel.send('사실은...')
+        await channel.send('거짓말이야, 못생겼어.')
         
 access_token = os.environ['BOT_TOKEN']        
 client.run(access_token)
