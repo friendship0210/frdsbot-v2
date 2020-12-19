@@ -241,7 +241,7 @@ async def on_message(message):
     if message.content.startswith('휴'):
         channel = message.channel
         await channel.send('한숨 쉬지마, 땅 꺼지겠다 ㅋㅋ;;')
-    if message.content.startswith('우정아 노래불러줘'):
+    if message.content.startswith('노래불러줘'):
         channel = message.channel
         await channel.send('떴다~ 떴다~ 비행기~ 🎶')
         await channel.send('날아라~ 날아라~ 🎶')
